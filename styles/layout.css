@@ -1,0 +1,76 @@
+@media only screen and (max-width: 768px) {
+    
+    header, .b, .c, .d{
+        width: 100%;
+        height: 11vh;
+    }
+    
+    .ef, .gh {
+        height: 25vh;
+    }
+    
+    .e, .f, .g, .h {
+        display: inline;
+        width: 50%;
+        height: 25vh;
+        float: left;
+    }
+    
+    footer {
+        float: left;
+        width: 100%;
+        height: 12vh;
+        clear: both;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        width: 960px;
+    }
+    header {
+        background-color: aqua;
+        height: 100px;
+        width: 960px;
+    }
+
+    .b {
+        float: left;
+        background-color: plum;
+        width: 3.39em;
+        height: 560px;
+    }
+
+    .c, .d {
+        float: left;
+        background-color: aliceblue;
+        width: 6.425em;
+        height: 200px;
+    }
+
+    /* .ef, .gh {
+        float: left; */
+        /* position: relative;
+        top: 200px;
+        left: 200px; */
+        /* width: 200px; */
+        /* height: 130px;
+        outline: 2px dashed purple;
+        display: inline-block;
+    } */
+
+    .e, .f, .g, .h {
+        background-color: cornsilk;
+        float: left;
+        width: 3.212em;
+        height: 210px;
+        display: inline-block;
+    }
+
+    footer {
+        background-color: gainsboro;
+        float: left;
+        width: 12.85em;
+        height: 150px;
+    }
+}
